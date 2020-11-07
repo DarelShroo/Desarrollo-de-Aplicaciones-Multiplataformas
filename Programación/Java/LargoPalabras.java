@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class EjercicioClase4 {
+public class LargoPalabras {
 	public static void main(String[] args) {
 
 		for (boolean Condition = true; Condition;) {
