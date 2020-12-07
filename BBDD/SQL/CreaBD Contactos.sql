@@ -30,3 +30,4 @@ ALTER TABLE contactos ADD provincia char (4)
 ALTER TABLE contactos ADD constraint fk_contactoscategoria FOREIGN KEY (categoria) REFERENCES CATEGORIAS (id_categoria)
 
 ALTER TABLE contactos ADD constraint fk_contactosprovincia FOREIGN KEY (provincia) REFERENCES PROVINCIAS (id_provincia)
+ insert into libros default values;

@@ -1,3 +1,5 @@
+package clasePrueba;
+
 
 public class OrdenarFraseConTablas {
 
