@@ -1,11 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d36ec232-c75f-4344-9ba5-caf34a907502" name="Default Changelist" comment="" />
+    <list default="true" id="d36ec232-c75f-4344-9ba5-caf34a907502" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/ProgramacionJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Bisisesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/DeclaracionOperadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Acceso_aplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Acceso_aplicacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Adivina_Numero.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Adivina_Numero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Algoritmos de Busqueda/BusquedaBinaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Algoritmos de Busqueda/BusquedaBinaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Algoritmos de Busqueda/busquedaAlturNombres.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Arrays/BusquedaAltNombres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Algoritmos de Ordenacion/metodoBurbuja.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Algoritmos de Ordenacion/metodoBurbuja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Algoritmos de Ordenacion/ordenamientoBurbuja.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Algoritmos de Ordenacion/ordenamientoBurbuja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Arrays/Array2dimensiones.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Arrays/Array2dimensiones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Arrays/Array_Bidimensional.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Arrays/Array_Bidimensional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Arrays/DivisoresNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/DivisoresNumeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Arrays/array2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Arrays/array2d.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Arrays/arrayIslasGrupos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Arrays/arrayIslasGrupos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Arrays/busquedaAlturNombres.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Algoritmos de Busqueda/busquedaAlturNombres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Arrays/dimensiones2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Arrays/dimensiones2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/AñoBisisesto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/CalcularAreas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/CalcularAreas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/CountVocals.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/CountVocals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/CountWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/CountWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Declaracion_Cadenas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Declaracion_Cadenas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Declaraciones_Operadores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/DivisoresNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Arrays/DivisoresNumeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/EcuacionGrado2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/EcuacionGrado2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/EjercicioBasico1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/EjercicioBasico1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/EjercicioBasico2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/EjercicioBasico2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/EjercicioHoras.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/EjercicioHoras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Euclides_MCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Euclides_MCD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Evalua_edad.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Evalua_edad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Examenes/ExamenEjercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Examenes/ExamenEjercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Examenes/ExamenEjercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Examenes/ExamenEjercicio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Examenes/ExamenEjercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Examenes/ExamenEjercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/FraseSinConsonantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/FraseSinConsonantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/JOptionPane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/LargoPalabras.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/LargoPalabras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/LimpiarHoraExpresionesRegulares.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/LimpiarHoraExpresionesRegulares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/MediaNombres.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/MediaNombres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/NumeroRomanos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/NumeroRomanos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/OcultarConsonantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/OcultarConsonantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/OcultarConsonantesBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/OcultarConsonantesBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/OrdenarFraseConTablas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/OrdenarFraseConTablas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/Euclides_MCD/Euclides_MCD.psc" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/Euclides_MCD/Euclides_MCD.psc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/Euclides_MCD/Euclides_MCD_cajasNassi-Schneiderman.png" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Euclides_MCD/Euclides_MCD_cajasNassi-Schneiderman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/Euclides_MCD/Euclides_MCD_diagramaFlujo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Euclides_MCD/Euclides_MCD_diagramaFlujo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/alumnosYProfesores/Aleatorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/alumnosYProfesores/Aleatorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/alumnosYProfesores/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/alumnosYProfesores/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/alumnosYProfesores/Aula.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/alumnosYProfesores/Aula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/alumnosYProfesores/Falta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/alumnosYProfesores/Falta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/alumnosYProfesores/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/alumnosYProfesores/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/alumnosYProfesores/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/alumnosYProfesores/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/alumnosYProfesores/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/alumnosYProfesores/Profesor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/areaPerimetroCuadrilatero/Cuadrilatero.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/areaPerimetroCuadrilatero/Cuadrilatero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/areaPerimetroCuadrilatero/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/areaPerimetroCuadrilatero/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/areaPerimetroCuadrilatero/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/areaPerimetroCuadrilatero/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/calcularAreasPoligono/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/calcularAreasPoligono/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/calcularAreasPoligono/Poligono.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/calcularAreasPoligono/Poligono.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/calcularAreasPoligono/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/calcularAreasPoligono/Rectangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/calcularAreasPoligono/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/calcularAreasPoligono/Triangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/calcularAreasPoligono/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/calcularAreasPoligono/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/competicionAtletismo/Atleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/competicionAtletismo/Atleta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/competicionAtletismo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/competicionAtletismo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/competicionAtletismo/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/competicionAtletismo/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/ecuacion2Grado/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/ecuacion2Grado/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/ecuacion2Grado/Raices.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/ecuacion2Grado/Raices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/ecuacion2Grado/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/ecuacion2Grado/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/libros/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/libros/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/libros/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/libros/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/libros/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/libros/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/numeroAleatorio/NumeroAleatorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/numeroAleatorio/NumeroAleatorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/trianguloIscoceles/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/trianguloIscoceles/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/trianguloIscoceles/TrianguloIscoceles.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/trianguloIscoceles/TrianguloIscoceles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/trianguloIscoceles/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/trianguloIscoceles/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/vehiculoMasBarato/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/vehiculoMasBarato/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/POO/vehiculoMasBarato/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/vehiculoMasBarato/Vehiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Palindromo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Palindromo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/Peso_ideal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Peso_ideal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/ReemplazarConsonantesConSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/ReemplazarConsonantesConSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/ReemplazarConsonantesER.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/ReemplazarConsonantesER.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/ReemplazarVocales.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/ReemplazarVocales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/SumarNumero_ParejaImpar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/SumarNumero_ParejaImpar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/calcularGasto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/calcularGasto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/comprueba_mail.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/comprueba_mail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/correo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/correo_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/horas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/horas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/numRomanos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/numRomanos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/pseudocodigo/Euclides_MCD/Euclides_MCD.psc" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Euclides_MCD/Euclides_MCD.psc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/pseudocodigo/Euclides_MCD/Euclides_MCD_cajasNassi-Schneiderman.png" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/Euclides_MCD/Euclides_MCD_cajasNassi-Schneiderman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programación/Java/pseudocodigo/Euclides_MCD/Euclides_MCD_diagramaFlujo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/POO/Euclides_MCD/Euclides_MCD_diagramaFlujo.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,7 +116,83 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ProgramacionJava/src" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Psych\IdeaProjects\Desarrollo-de-Aplicaciones-Multiplataformas\ProgramacionJava\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="POO.areaPerimetroCuadrilatero.Main" />
+      <module name="ProgramacionJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POO.areaPerimetroCuadrilatero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="POO.calcularAreasPoligono.Main" />
+      <module name="ProgramacionJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POO.calcularAreasPoligono.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="POO.alumnosYProfesores.Main" />
+      <module name="ProgramacionJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POO.alumnosYProfesores.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OcultarConsonantesBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OcultarConsonantesBuffer" />
+      <module name="ProgramacionJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="numRomanos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="numRomanos" />
+      <module name="ProgramacionJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.numRomanos" />
+        <item itemvalue="Application.OcultarConsonantesBuffer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -29,5 +204,32 @@
       <updated>1603489919272</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/Palindromo.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
