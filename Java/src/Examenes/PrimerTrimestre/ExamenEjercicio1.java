@@ -1,4 +1,4 @@
-package Examenes;
+package Examenes.PrimerTrimestre;
 
 import java.util.Scanner;
 
