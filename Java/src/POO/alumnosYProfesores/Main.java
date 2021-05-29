@@ -45,13 +45,14 @@ public class Main{
 			System.out.println("Profesor "+profesores[i].getNombre() + " imparte la materia " + profesores[i].getMateria() + " su edad es: "+ profesores[i].getEdad());
 
 		}
+		/*
 		for(int i =0;i<aulas.length;i++) {
 			for(int j =0;  j<aulas[i].getAlumnos().length; j++) {
-				if(Aleatorio.generarNumeroAleatorio(0,100) <=50) {
+				if(Aleatorio.generarNumeroAleatorio(0,100) <=20) {
 					nAlumnosFaltan++; 
 				}
 			}
-			if(Aleatorio.generarNumeroAleatorio(0, 100)<=20) {
+			if(Aleatorio.generarNumeroAleatorio(0, 100)<=10) {
 				faltaProfesor = true;
 			}
 			if (nAlumnosFaltan > aulas[i].getAlumnos().length/2) {
@@ -66,7 +67,7 @@ public class Main{
 				}
 			}
 			nAlumnosFaltan =0;
-		}
+		}*/
 		
 		
 		
