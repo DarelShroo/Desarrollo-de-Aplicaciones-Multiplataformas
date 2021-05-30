@@ -1,11 +1,9 @@
-package ficheros.leyendo.buffers;
+package ficheros.buffers;
 
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.LinkedList;
-import java.util.ListIterator;
 
 public class AccesoFicheros {
     public static void main(String[] args) {
@@ -20,7 +18,7 @@ class LeerFichero {
 
     public void lee(){
         try {
-            fr = new FileReader("./Java/src/ficheros/leyendo/buffers/archivo.txt");
+            fr = new FileReader("./Java/src/ficheros/buffers/archivo.txt");
             BufferedReader buffer = new BufferedReader(fr);
 
             //int datos = 0;
