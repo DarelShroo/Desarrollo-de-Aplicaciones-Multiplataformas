@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d36ec232-c75f-4344-9ba5-caf34a907502" name="Default Changelist" comment="Exámen segundo trimestre Ejercicio 1 Clase Point" />
+    <list default="true" id="d36ec232-c75f-4344-9ba5-caf34a907502" name="Default Changelist" comment="Exámen segundo trimestre Ejercicio 1 Clase Point">
+      <change beforePath="$PROJECT_DIR$/Java/src/Serializacion/Serializacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Serializacion/Serializacion.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622372985016</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Exámen segundo trimestre Ejercicio 1 Clase Point">
+      <created>1622373239941</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622373239941</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

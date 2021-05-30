@@ -38,6 +38,6 @@ class Mascota {
 
 class Gato extends Mascota implements Serializable {
     public Gato(String nombre, int edad, double peso, double tamaño, String garras) {
-        super(nombre, edad, peso, tamaño);
+        super(nombre, edad, peso, tamaño, garras);
     }
 }
