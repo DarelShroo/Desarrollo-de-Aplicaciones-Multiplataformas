@@ -27,7 +27,7 @@ class Mascota {
     int edad;
     double peso;
     double tamaño;
-    public Mascota(String nombre, int edad, double peso, double tamaño){
+    public Mascota(String nombre, int edad, double peso, double tamaño, String garras){
 
         this.nombre = nombre;
         this.edad = edad;

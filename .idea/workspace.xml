@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d36ec232-c75f-4344-9ba5-caf34a907502" name="Default Changelist" comment="Exámen segundo trimestre Ejercicio 1 Clase Point">
-      <change afterPath="$PROJECT_DIR$/Java/src/Serializacion/Serializacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/ficheros/bytes/LecturaEscritura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/ficheros/bytes/pokemon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/ficheros/leyendo/buffers/AccesoFicheros.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/ficheros/buffers/AccesoFicheros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/ficheros/leyendo/buffers/archivo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/ficheros/buffers/archivo.txt" afterDir="false" />
-    </list>
+    <list default="true" id="d36ec232-c75f-4344-9ba5-caf34a907502" name="Default Changelist" comment="Exámen segundo trimestre Ejercicio 1 Clase Point" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622329681925</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Exámen segundo trimestre Ejercicio 1 Clase Point">
+      <created>1622372985016</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622372985016</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
