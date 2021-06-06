@@ -2,8 +2,10 @@ package ficheros;
 
 public class Main {
     public static void main (String[] args){
-        Acceso_Fichero2 accediendo = new Acceso_Fichero2();
-
-        accediendo.leer();
+        LeerNumerosCreciente accediendo = new LeerNumerosCreciente();
+        LeerNumerosOperaciones leer = new LeerNumerosOperaciones();
+        //leer.leer();
+        LeerNumerosSumPro numeros = new LeerNumerosSumPro();
+        numeros.leer();
     }
 }

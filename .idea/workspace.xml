@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d36ec232-c75f-4344-9ba5-caf34a907502" name="Default Changelist" comment="Exámen segundo trimestre Ejercicio 1 Clase Point">
-      <change beforePath="$PROJECT_DIR$/Java/src/Serializacion/Serializacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Serializacion/Serializacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Serializacion/Mascota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/ficheros/DiscoDuroDeRoer/MiObjectOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/ficheros/LeerNumerosCreciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/Serializacion/Serializacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/Serializacion/objeto.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Serializacion/objeto.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/ficheros/Acceso_Fichero2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/ficheros/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/ficheros/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/ficheros/archivo2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/ficheros/archivo2.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,13 +51,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="16" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Java/src/ficheros/bytes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ExamenTercerTrimestre" />
+      <recent name="ficheros.DiscoDuroDeRoer" />
+      <recent name="Serializacion" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Psych\IdeaProjects\Desarrollo-de-Aplicaciones-Multiplataformas\Java\src\ficheros\bytes" />
       <recent name="C:\Users\Psych\IdeaProjects\Desarrollo-de-Aplicaciones-Multiplataformas\Java\src\ficheros\leyendo\buffers" />
@@ -65,33 +80,7 @@
       <recent name="Ficheros" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Serializacion">
-    <configuration name="AccesoFicheros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ficheros.leyendo.AccesoFicheros" />
-      <module name="ProgramacionJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ficheros.leyendo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccesoFicheros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ficheros.buffers.AccesoFicheros" />
-      <module name="ProgramacionJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ficheros.buffers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Adivina_Numero" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Adivina_Numero" />
       <module name="ProgramacionJava" />
@@ -112,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EscribirFichero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ficheros.escribiendo.EscribirFichero" />
+    <configuration name="DataOutputInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ficheros.DiscoDuroDeRoer.DataOutputInputStream" />
       <module name="ProgramacionJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ficheros.escribiendo.*" />
+          <option name="PATTERN" value="ficheros.DiscoDuroDeRoer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LecturaEscritura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ficheros.bytes.LecturaEscritura" />
+    <configuration name="LeerNumerosCreciente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ficheros.LeerNumerosCreciente" />
       <module name="ProgramacionJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ficheros.bytes.*" />
+          <option name="PATTERN" value="ficheros.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +127,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Serializacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Serializacion.Serializacion" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ficheros.Main" />
       <module name="ProgramacionJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Serializacion.*" />
+          <option name="PATTERN" value="ficheros.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerializacionClientes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ficheros.DiscoDuroDeRoer.SerializacionClientes" />
+      <module name="ProgramacionJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ficheros.DiscoDuroDeRoer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="prueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExamenTercerTrimestre.prueba" />
+      <module name="ProgramacionJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExamenTercerTrimestre.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Serializacion" />
-        <item itemvalue="Application.LecturaEscritura" />
-        <item itemvalue="Application.AccesoFicheros (1)" />
-        <item itemvalue="Application.EscribirFichero" />
-        <item itemvalue="Application.AccesoFicheros" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.LeerNumerosCreciente" />
+        <item itemvalue="Application.prueba" />
+        <item itemvalue="Application.SerializacionClientes" />
+        <item itemvalue="Application.DataOutputInputStream" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622373239941</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Exámen segundo trimestre Ejercicio 1 Clase Point">
+      <created>1622373307719</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622373307719</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +265,14 @@
           <properties class="java.io.FileNotFoundException" package="java.io" />
           <option name="timeStamp" value="5" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.EOFException" package="java.io" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="13" />
+        </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Java/src/Palindromo.java</url>
           <line>2</line>
@@ -250,5 +280,13 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Desarrollo_de_Aplicaciones_Multiplataformas$Acceso_Fichero2.ic" NAME="Acceso_Fichero2 Coverage Results" MODIFIED="1622850411388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ficheros.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Desarrollo_de_Aplicaciones_Multiplataformas$Main.ic" NAME="Main Coverage Results" MODIFIED="1622974640791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ficheros.*</FILTER>
+    </SUITE>
   </component>
 </project>
