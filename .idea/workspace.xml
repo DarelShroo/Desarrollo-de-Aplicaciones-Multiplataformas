@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d36ec232-c75f-4344-9ba5-caf34a907502" name="Default Changelist" comment="Exámen segundo trimestre Ejercicio 1 Clase Point">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Serializacion/Mascota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/ficheros/DiscoDuroDeRoer/MiObjectOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/ficheros/LeerNumerosCreciente.java" afterDir="false" />
+    <list default="true" id="d36ec232-c75f-4344-9ba5-caf34a907502" name="Default Changelist" comment="Añadido LeerNumerosCreciente">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Serializacion/Serializacion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Serializacion/objeto.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Serializacion/objeto.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/ficheros/Acceso_Fichero2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/ficheros/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/ficheros/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/ficheros/archivo2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/ficheros/archivo2.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +19,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -51,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="16" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Desarrollo-de-Aplicaciones-Multiplataformas-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
