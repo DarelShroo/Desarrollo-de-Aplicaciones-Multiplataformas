@@ -7,23 +7,24 @@ public class Main {
         Pila pilaClima = new Pila();
         Pila climaPilaInvertida = new Pila();
 
-        pilaClima.apilar(new Clima("Tacoronte", 20, 70));
-        pilaClima.apilar(new Clima("La matanza", 22, 60));
-        pilaClima.apilar(new Clima("La victoria", 18, 80));
-        pilaClima.apilar(new Clima("Valle guerra", 25, 50));
+        pilaClima.push(new Clima("Tacoronte", 20, 70));
+        pilaClima.push(new Clima("La matanza", 22, 60));
+        pilaClima.push(new Clima("La victoria", 18, 80));
+        pilaClima.push(new Clima("Valle guerra", 25, 50));
 
-        climaPilaInvertida= pilaClima.invertirPila();
+        //climaPilaInvertida= pilaClima.invertirPila();
 
-        climaPilaInvertida.mostrarPila();
-        guardarEnFichero.guardar(climaPilaInvertida);
+        //climaPilaInvertida.mostrarPila();
+        pilaClima.toString();
+        //guardarEnFichero.guardar(climaPilaInvertida);
         Pila recuperada;
-        recuperada= (Pila)leer("C:\\Ficheros\\Climas.dat");
+       //recuperada= (Pila)leer("C:\\Ficheros\\Climas.dat");
 
 
-        recuperada.getTamanio();
-        recuperada.pilaIsEmpty();
+        //recuperada.getTamanio();
+        //recuperada.pilaIsEmpty();
     }
-
+/*
     public static Object leer(String ruta) {
         Object objeto = null;
         try(ObjectInputStream recuperar_objeto = new ObjectInputStream((new FileInputStream(ruta)))){
@@ -38,4 +39,6 @@ public class Main {
         }
         return objeto;
     }
+
+ */
 }

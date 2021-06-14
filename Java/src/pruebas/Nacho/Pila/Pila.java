@@ -1,72 +1,80 @@
 package pruebas.Nacho.Pila;
 
-import java.io.Serializable;
-import java.lang.reflect.Array;
-import java.util.Collection;
+import Pilas.Nodo;
 
-public class Pila implements Serializable {
-    private Nodo ultimoValorIngresado;
-    int tamanio = 0; // tamaño de la pila
+import java.io.Serializable;
+
+public class Pila <T> implements Serializable {
+    private Pilas.Nodo<T> top;
+    private int tamanio;
 
     public Pila(){
-        ultimoValorIngresado = null; // El apuntador del final debe contener null
+        top = null;
         this.tamanio = 0;
     }
 
-    public boolean pilaIsEmpty(){ // Método para saber si la pila está vacia
-        return  ultimoValorIngresado == null;
+    public boolean isEmpty() {
+        return top == null;
+    }
+    public int size () {
+        return this.tamanio;
     }
 
-    /*Un nodo tiene dos campos uno con información y el otro el apuntador que nos indica el siguiente nodo*/
-    //Introducimos elementos
-    public void apilar(Object nodo){
-        Nodo nuevoNodo = new Nodo (nodo); // se crea el nuevo nodo, este contiene el objeto nuevo
-        nuevoNodo.siguiente = ultimoValorIngresado; // el nuevo nodo pasa a ser el siguiente
-        ultimoValorIngresado = nuevoNodo; // el nuevo nodo pasa a ser el ultimo valor ingresado
-        tamanio++;
-    }
-
-    // Eliminar un nodo
-    public Object borrarElemento(){
-        Object aux = ultimoValorIngresado.valor; // guardamos el nodo a eliminar(último al ser una pila)
-        ultimoValorIngresado = ultimoValorIngresado.siguiente;
-        /* avanzamos en la pila para que el ultimo nodo sea el siguiente y se pueda eliminar */
-        tamanio--;
-        return aux;
-    }
-
-    public Object extraerElemento(){
-        return ultimoValorIngresado.toString();
-    }
-
-    public int getTamanio (){
-        return tamanio;
-    }
-
-    public void vaciarPila(){ // vaciamos la Pila
-        while(!pilaIsEmpty()){
-            borrarElemento();
+    public T top() {
+        if(isEmpty()) {
+            return null;
+        }else {
+            return top.getElemento();
         }
     }
 
-    public void mostrarPila(){
-        Nodo recorrido = ultimoValorIngresado;
-        while (recorrido != null) {
-            System.out.println(recorrido.valor.toString());
-            recorrido = recorrido.siguiente;
+    public T pop () {
+        if(isEmpty()){
+            return null;
+        }else {
+            T elemento = top.getElemento();
+            Pilas.Nodo<T> aux = top.getSiguiente();
+            top = null;
+            top = aux;
+            this.tamanio--;
+            return elemento;
         }
     }
 
+    public void push(T elemento){
+        Pilas.Nodo<T> aux = new Pilas.Nodo<T>(elemento, top);
+        top = aux;
+        this.tamanio++;
+    }
+
+
+
+    public String toString(){
+        if(isEmpty()){
+            System.out.println( "La pila está vacia");
+        }else {
+            Nodo<T> aux = top;
+            while(aux!=null){
+                System.out.println(aux.toString());
+                aux = aux.getSiguiente();
+            }
+        }
+        return null;
+    }
+/*
     public Pila invertirPila(){
         Pila pilaInvertida = new Pila();
-        Nodo recorrido = ultimoValorIngresado;
+        Nodo recorrido = ultimoElementoIngresado;
         Object[] objetos = null;
         int pos = 0;
-        if(objetos !=null){
-        while(recorrido!=null){
-            objetos[pos] = recorrido.valor;
-            recorrido = recorrido.siguiente;
-        }
+        if(getTamanio() ==0){
+            System.out.println("Está vacia");
+
+        }else {
+            while(recorrido!=null){
+                objetos[pos] = recorrido.getElemento();
+                recorrido = recorrido.getSiguiente();
+            }
 
             for(int i = objetos.length-1; i > objetos.length-1; i--){
                 pilaInvertida.apilar(objetos[i]);
@@ -76,7 +84,7 @@ public class Pila implements Serializable {
             Object temp = objetos[i];
             objetos[i] = objetos[objetos.length-1-i];
             objetos[objetos.length-1-i] = temp;
-        }*/
+        }
         return pilaInvertida;
-    }
+    }*/
 }
