@@ -2,7 +2,7 @@ package pruebas.Nacho.Pila;
 
 import java.io.*;
 
-public class guardarEnFichero implements Serializable{
+public class guardarEnFichero {
     public static void guardar(Object objeto){
         try(ObjectOutputStream escribir_fichero =  new ObjectOutputStream(new FileOutputStream("C:\\ficheros\\Climas.dat"))){
             escribir_fichero.writeObject(objeto);
@@ -12,4 +12,5 @@ public class guardarEnFichero implements Serializable{
             e.printStackTrace();
         }
     }
+
 }

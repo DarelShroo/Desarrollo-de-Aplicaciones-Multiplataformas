@@ -1,11 +1,11 @@
 package ListasDinamicas;
 
-import Pilas.NodoPilaDinamica;
+import Pilas.Nodo;
 
 public class ListaDinamica <T>{
     //atributos
-    private NodoPilaDinamica<T> primero;
-    private NodoPilaDinamica<T> ultimo;
+    private Nodo<T> primero;
+    private Nodo<T> ultimo;
     private int tamanio;
 
     public ListaDinamica(){
@@ -22,7 +22,7 @@ public class ListaDinamica <T>{
         return tamanio;
     }
 
-    private NodoPilaDinamica<T> getNode(int index){
+    private Nodo<T> getNode(int index){
         if(isEmpty() || (index < 0 || index >= size() )) {
             return null;
         }else if (index == 0) {
@@ -30,7 +30,7 @@ public class ListaDinamica <T>{
         }else if (index == size()-1) {
             return ultimo;
         }else {
-            NodoPilaDinamica<T> buscado = primero;
+            Nodo<T> buscado = primero;
             int contador = 0;
             while(contador < index){
                 contador++;
@@ -49,7 +49,7 @@ public class ListaDinamica <T>{
         }else if (index == size()-1) {
             return getLast();
         }else {
-            NodoPilaDinamica<T> buscado= getNode(index);
+            Nodo<T> buscado= getNode(index);
             return buscado.getElemento();
         }
     }
@@ -70,13 +70,13 @@ public class ListaDinamica <T>{
     }
 
     public T addFirst(T elemento) {
-        NodoPilaDinamica<T> aux;
+        Nodo<T> aux;
         if(isEmpty()){
-            aux = new NodoPilaDinamica<>(elemento, null);
+            aux = new Nodo<>(elemento, null);
             primero = aux;
             ultimo = aux;
         }else {
-            aux = new NodoPilaDinamica<>(elemento, primero);
+            aux = new Nodo<>(elemento, primero);
             primero = aux;
         }
         tamanio++;
@@ -84,11 +84,11 @@ public class ListaDinamica <T>{
     }
 
     public T addLast(T elemento) {
-        NodoPilaDinamica<T> aux;
+        Nodo<T> aux;
         if(isEmpty()){
             addFirst(elemento);
         }else {
-            aux = new NodoPilaDinamica<>(elemento, null);
+            aux = new Nodo<>(elemento, null);
             ultimo.setSiguiente(aux);
             ultimo = aux;
         }
@@ -104,9 +104,9 @@ public class ListaDinamica <T>{
         }else if(index < 0 || index >= size()) {
             return null;
         }else {
-            NodoPilaDinamica<T> anterior = getNode(index-1);
-            NodoPilaDinamica<T> actual = getNode(index);
-            NodoPilaDinamica<T> aux = new NodoPilaDinamica<>(elemento, actual);
+            Nodo<T> anterior = getNode(index-1);
+            Nodo<T> actual = getNode(index);
+            Nodo<T> aux = new Nodo<>(elemento, actual);
             anterior.setSiguiente(aux);
 
             tamanio++;
@@ -120,7 +120,7 @@ public class ListaDinamica <T>{
         if(isEmpty()){
             cadena = "Lista Vacia";
         }else{
-            NodoPilaDinamica<T> aux = primero;
+            Nodo<T> aux = primero;
             while (aux!=null) {
                 cadena += aux.toString();
                 aux =aux.getSiguiente();

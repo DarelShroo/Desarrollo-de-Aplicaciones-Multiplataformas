@@ -1,14 +1,14 @@
 package pruebas.Nacho.Pila;
 
-//import Pilas.Nodo;
+import Pilas.Nodo;
 
 import java.io.Serializable;
 
-public class Pila<T> implements Serializable {
-    private Nodo<T> top;
+public class Pila <T> implements Serializable {
+    private Pilas.Nodo<T> top;
     private int tamanio;
 
-    public Pila() {
+    public Pila(){
         top = null;
         this.tamanio = 0;
     }
@@ -16,65 +16,75 @@ public class Pila<T> implements Serializable {
     public boolean isEmpty() {
         return top == null;
     }
-
-    public int size() {
+    public int size () {
         return this.tamanio;
     }
 
     public T top() {
-        if (isEmpty()) {
+        if(isEmpty()) {
             return null;
-        } else {
+        }else {
             return top.getElemento();
         }
     }
 
-    public T pop() {
-        if (isEmpty()) {
+    public T pop () {
+        if(isEmpty()){
             return null;
-        } else {
+        }else {
             T elemento = top.getElemento();
-            Nodo<T> aux = top.getSiguiente();
+            Pilas.Nodo<T> aux = top.getSiguiente();
+            top = null;
             top = aux;
             this.tamanio--;
             return elemento;
         }
     }
 
-    public void push(T elemento) {
-        Nodo<T> aux = new Nodo<T>(elemento, top);
+    public void push(T elemento){
+        Pilas.Nodo<T> aux = new Pilas.Nodo<T>(elemento, top);
         top = aux;
         this.tamanio++;
     }
 
-    public  String toString() {
+
+
+    public String toString(){
         if(isEmpty()){
-            return "La pila está vacia";
+            System.out.println( "La pila está vacia");
         }else {
-            String resultado="";
             Nodo<T> aux = top;
             while(aux!=null){
-                resultado += aux.toString();
+                System.out.println(aux.toString());
                 aux = aux.getSiguiente();
             }
-            return resultado;
         }
+        return null;
     }
-
-    public Pila invertirPila() {
+/*
+    public Pila invertirPila(){
         Pila pilaInvertida = new Pila();
-        Nodo recorrido = top;
+        Nodo recorrido = ultimoElementoIngresado;
+        Object[] objetos = null;
         int pos = 0;
-        while (recorrido != null) {
-            pilaInvertida.push(recorrido.getElemento());
-            recorrido = recorrido.getSiguiente();
-            pos++;
+        if(getTamanio() ==0){
+            System.out.println("Está vacia");
+
+        }else {
+            while(recorrido!=null){
+                objetos[pos] = recorrido.getElemento();
+                recorrido = recorrido.getSiguiente();
+            }
+
+            for(int i = objetos.length-1; i > objetos.length-1; i--){
+                pilaInvertida.apilar(objetos[i]);
+            }
         }
         /*for(int i = 0; i < objetos.length/2; i++){
             Object temp = objetos[i];
             objetos[i] = objetos[objetos.length-1-i];
             objetos[objetos.length-1-i] = temp;
-        }*/
+        }
         return pilaInvertida;
-    }
+    }*/
 }

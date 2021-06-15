@@ -20,7 +20,7 @@ public class Clima implements Serializable {
     public String toString() {
         return "Clima{" +
                 "lugar= '" + lugar + '\'' +
-                ", temperatura= " + temperatura + "º+"+"C"+
+                ", temperatura= " + temperatura + "\\u25CF+"+"C"+
                 ", humedad= " + humedad +"%" +
                 '}';
     }
