@@ -4,7 +4,7 @@ package pruebas.Nacho.Pila;
 
 import java.io.Serializable;
 
-public class Pila<T> implements Serializable {
+public class Pila<T>  implements Serializable {
     private Nodo<T> top;
     private int tamanio;
 
