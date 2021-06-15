@@ -1,7 +1,7 @@
 package Pilas;
 
 public class PilaDinamica<T> {
-    private Nodo<T> top;
+    private NodoPilaDinamica<T> top;
     private int tamanio;
 
     public PilaDinamica(){
@@ -29,7 +29,7 @@ public class PilaDinamica<T> {
             return null;
         }else {
             T elemento = top.getElemento();
-            Nodo<T> aux = top.getSiguiente();
+            NodoPilaDinamica<T> aux = top.getSiguiente();
             top = null;
             top = aux;
             this.tamanio--;
@@ -38,7 +38,7 @@ public class PilaDinamica<T> {
     }
 
     public void push(T elemento){
-        Nodo<T> aux = new Nodo<T>(elemento, top);
+        NodoPilaDinamica<T> aux = new NodoPilaDinamica<T>(elemento, top);
         top = aux;
         this.tamanio++;
     }
@@ -48,7 +48,7 @@ public class PilaDinamica<T> {
             return "La pila está vacia";
         }else {
             String resultado="";
-            Nodo<T> aux = top;
+            NodoPilaDinamica<T> aux = top;
             while(aux!=null){
                 resultado += aux.toString();
                 aux = aux.getSiguiente();

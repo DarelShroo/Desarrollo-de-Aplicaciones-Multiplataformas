@@ -5,7 +5,9 @@ public class Main {
         LeerNumerosCreciente accediendo = new LeerNumerosCreciente();
         LeerNumerosOperaciones leer = new LeerNumerosOperaciones();
         //leer.leer();
-        LeerNumerosSumPro numeros = new LeerNumerosSumPro();
-        numeros.leer();
+        //LeerNumerosSumPro numeros = new LeerNumerosSumPro();
+        //numeros.leer();
+
+        accediendo.leer();
     }
 }
