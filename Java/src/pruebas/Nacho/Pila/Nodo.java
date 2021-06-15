@@ -1,29 +1,34 @@
 package pruebas.Nacho.Pila;
 
-public class Nodo <T>{
-    private T valor; // siempre van a existir
-    private Nodo siguiente;
+import java.io.Serializable;
 
-    public Nodo(T valor, Nodo<T> siguiente){ // el tipo de objeto que se va a guardar
-        this.valor = valor;
-        siguiente = null; //valor de inicio a nulo
+public class Nodo <T> implements Serializable {
+    private T elemento;
+    private Nodo<T> siguiente;
+
+    public Nodo(T elemento, Nodo<T> siguiente){
+        this.elemento = elemento;
+        this.siguiente = siguiente;
     }
 
-    public Nodo<T> getSiguiente(){return siguiente;}
+    public Nodo<T> getSiguiente() {
+        return siguiente;
+    }
+
     public void setSiguiente(Nodo<T> siguiente) {
         this.siguiente = siguiente;
     }
 
     public T getElemento() {
-        return valor;
+        return elemento;
     }
 
-    public void setElemento(T valor) {
-        this.valor = valor;
+    public void setElemento(T elemento) {
+        this.elemento = elemento;
     }
 
     @Override
     public String toString() {
-        return valor+"\n";
+        return elemento+"\n";
     }
 }
